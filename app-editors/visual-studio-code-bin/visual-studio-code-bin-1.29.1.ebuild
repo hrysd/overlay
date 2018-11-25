@@ -29,6 +29,7 @@ src_install() {
 	fperms +x /opt/visual-studio-code/code
 	fperms +x /opt/visual-studio-code/libffmpeg.so
 	fperms +x /opt/visual-studio-code/libnode.so
+	fperms +x /opt/visual-studio-code/resources/app/node_modules.asar.unpacked/vscode-ripgrep/bin/rg
 
 	make_desktop_entry "/usr/bin/code %U" "Visual Studio Code" "code" \
 		"TextEditor;Development;"
